@@ -41,7 +41,8 @@ def main():
          else:
             fuel = "N/A"      
          mileage = results.find_all(class_="Text_Text_text Vehiculecard_Vehiculecard_characteristicsItems Text_Text_body2")[1]
-
+         
+         # split et join
          if results:
             brand_text = brand.text.split()[0]
             model_text = " ".join(model.text.split()[1:])
