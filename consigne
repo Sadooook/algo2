@@ -1,0 +1,9 @@
+install les paquets pour que le code marche : 
+
+
+beautifulsoup pour extraire et manipulé des données a partir de html : 
+pip install beautifulsoup4
+
+
+requests pour rfaire des demandes HTTP a des serveurs pour interagir avec : 
+pip install requests
